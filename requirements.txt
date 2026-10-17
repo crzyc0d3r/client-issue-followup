@@ -1,0 +1,5 @@
+# CLI and HTTP adapters use the Python 3.10+ standard library.
+# Optional harness tool server, verified with this SDK version:
+mcp==1.28.0
+# API contract tests:
+jsonschema>=4.23,<5

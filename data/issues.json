@@ -1,0 +1,5 @@
+[
+  {"id": "101", "title": "CSV export cuts off after 1000 rows", "body": "The reporting export must include all filtered rows instead of silently truncating at 1000.", "state": "open", "url": "https://github.com/example-org/example-app/issues/101"},
+  {"id": "102", "title": "Dashboard timezone selector", "body": "Allow a user to change the timezone displayed on dashboards.", "state": "closed", "url": "https://github.com/example-org/example-app/issues/102"},
+  {"id": "103", "title": "Scheduled reports ignore account timezone", "body": "Daily emailed reports are sent at UTC midnight rather than the configured account timezone.", "state": "open", "url": "https://github.com/example-org/example-app/issues/103"}
+]

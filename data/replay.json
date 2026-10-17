@@ -1,0 +1,10 @@
+{
+  "decisions": {
+    "export": {"model": "synthetic-fixture", "answers": {"match": {"type": "choice", "choice": "issue_101", "confidence": 0.97, "probabilities": {"issue_101": 0.97, "issue_102": 0.01, "issue_103": 0.01, "no_match": 0.01}}}, "usage": {"input_tokens": 0, "output_tokens": 0}},
+    "schedule": {"model": "synthetic-fixture", "answers": {"match": {"type": "choice", "choice": "issue_102", "confidence": 0.59, "probabilities": {"issue_101": 0.01, "issue_102": 0.59, "issue_103": 0.39, "no_match": 0.01}}}, "usage": {"input_tokens": 0, "output_tokens": 0}},
+    "language": {"model": "synthetic-fixture", "answers": {"match": {"type": "choice", "choice": "no_match", "confidence": 0.92, "probabilities": {"issue_101": 0.02, "issue_102": 0.03, "issue_103": 0.03, "no_match": 0.92}}}, "usage": {"input_tokens": 0, "output_tokens": 0}}
+  },
+  "reviews": {
+    "schedule": {"choice": "issue_103", "reason": "The request concerns the report delivery schedule; the dashboard display selector is a different feature."}
+  }
+}
